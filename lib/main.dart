@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import './screens/dashboard_screen.dart';
 import './screens/movie_details_screen.dart';
 
@@ -15,6 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.white,
       ),
+      //splashscreen
       home: DashboardScreen(),
       routes: {
         MovieDetailsScreen.routeName: (ctx) => MovieDetailsScreen(),
